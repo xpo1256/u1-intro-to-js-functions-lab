@@ -8,7 +8,7 @@ If they're equal, return either one.
 Exercise 1 has been completed for you:
 */
 
-/* const maxOfTwoNumbers = (x, y) => {
+ const maxOfTwoNumbers = (x, y) => {
   if (x >= y) {
     return x;
   } else {
@@ -17,7 +17,7 @@ Exercise 1 has been completed for you:
 }
 
 console.log('Exercise 1 Result:', maxOfTwoNumbers(3, 9));
- */
+ 
 /*
 Exercise 2: isAdult()
 
@@ -31,9 +31,9 @@ Complete the exercise in the space below:
 
 function isAdult(number){
     if (number >= 18){
-            console.log('Adult')
+            return'Adult'
     }else {
-        console.log('Minor')
+         return'Minor'
     }
 }
 
@@ -56,9 +56,9 @@ Complete the exercise in the space below:
 function isCharAVowel(char){
     
     if (char === "a" || char === 'v' || char === 'o' || char === 'w' || char === "e"|| char === "l"){
-       return console.log("true");
+       return "true";
     }else{
-       return console.log('flase');
+       return 'flase';
     }
 }
 
@@ -78,7 +78,7 @@ Complete the exercise in the space below:
 */
 
 function generateEmail(name,domain){
-    console.log(`${name} ${domain}`);
+    return`${name} ${domain}`;
 }
 
 console.log('Exercise 4 Result:', generateEmail("johnsmith", "example.com"));
@@ -97,11 +97,11 @@ Complete the exercise in the space below:
 
 function greetUser(name,time){
     if(time === 'morning'){
-       return console.log(`${name} Good Morning`);
+       return `${name} ${time}`;
     }else if( time === 'after noon'){
-       return console.log(`${name} after noon`);
+       return `${name} ${time}`;
     }else if(time === 'evening'){
-      return   console.log(`${name} Evening`);
+      return  `${name} ${time}`;
     }
 }
 
